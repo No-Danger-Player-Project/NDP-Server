@@ -684,13 +684,7 @@ NDP 控制台
 
             elif cmd[0] == 'help':
                 print(help_text)
-
-            elif cmd[0] == 'love':
-                if len(cmd) > 1 and cmd[1] == "100301":
-                    print(f"EXE_autumnwind: U2FsdGVkX19T8OuXjjHhDLv5H1CnCg8bxfTSqOnPtFs0PcS1YSn1poF2bBzUv9Wp (害羞)")
-                else:print(f"{RED}错误:未知命令 '{cmd[0]}',输入 help 查看可用命令")
-                continue
-              
+                
             elif cmd[0] == 'logs':
                 print(f"\n{WHITE}系统运行日志{RESET}")
                 print(f"{GREEN}数据文件: {CYAN}{Path(app.config['DATA_FILE']).absolute()}{RESET}")
