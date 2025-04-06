@@ -1,5 +1,5 @@
 # NDP 封禁系统文档
-
+## 数据目录在C:/NDP-Data
 ## config.json
 ```json
 {
