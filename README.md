@@ -6,7 +6,7 @@
     "SECRET_VERIFICATION": "token", //用于POST请求的密钥
     "ADMIN_PORT": 5020, //服务端口
     "ADMIN_USERS": {
-        "admin": "password" // 审核网页用户密码,默认为password
+        "admin": "password" // 审核网页用户密码,默认为password(此处会在程序启动后自动转化为哈希值)
     }
 }
 ```
