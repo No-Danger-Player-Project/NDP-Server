@@ -1,6 +1,17 @@
-# NDP 封禁系统 API 文档
+# NDP 封禁系统文档
 
-## 接口列表
+## config.json
+```json
+{
+    "SECRET_VERIFICATION": "token", //用于POST请求的密钥
+    "ADMIN_PORT": 5020, //服务端口
+    "ADMIN_USERS": {
+        "admin": "password" // 审核网页用户密码,默认为password
+    }
+}
+```
+
+## API
 
 ### 1. 添加/移除封禁 
 
@@ -142,6 +153,6 @@
 
 ```json
 {
-  "verification": "token"
+  "verification": "ndp_pwd_114514"
 }
 ```
