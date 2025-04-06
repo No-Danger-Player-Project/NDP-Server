@@ -153,6 +153,6 @@
 
 ```json
 {
-  "verification": "ndp_pwd_114514"
+  "verification": "token"
 }
 ```
