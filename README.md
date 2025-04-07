@@ -1,3 +1,10 @@
+# NDP-Server
+> 隶属于NDP的服务端程序，主要使用Python进行编写，作用为让No-Danger-Players插件/模组连接，真正的实现封禁管理功能。
+>
+> [NDP项目Github页](https://github.com/No-Danger-Player-Project/)
+
+
+
 # NDP 封禁系统文档
 ## 数据目录在C:/NDP-Data
 ## config.json
