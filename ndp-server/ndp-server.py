@@ -789,7 +789,7 @@ if __name__ == '__main__':
  / /|  / /_/ / ____/   ___/ /  __/ /   | |/ /  __/ /    
 /_/ |_/_____/_/       /____/\___/_/    |___/\___/_/     
 
- + Copyright 2025 Codewaves <https://codewaves.cn/ndp>
+ + Copyright 2025 Codewaves <https://ndp.codewaves.cn>
  + By EXE_autumnwind 
  + Version {version}.0                                                                            
 {RESET}""")
